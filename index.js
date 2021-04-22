@@ -16,6 +16,8 @@ app.use( express.json() );
 //CONEXION DB
 dbConection();
 
+//DIRECTORIO PUBLICO
+app.use( express.static('public') );
 
 
 
